@@ -1,0 +1,38 @@
+#question 4
+#Write a program that asks for the time of day and then greets a user appropiately.
+#Try using case statements.
+
+ puts 'What time is it?'
+ answer = gets.chomp.to_i
+ case answer
+ when answer >= 6 && answer <= 11
+ puts 'good morning'
+ when answer >= 12 && answer <= 19
+ puts "Good Afternoon"
+ else
+ puts 'Good Night'
+ end
+
+ #question 5 - Bartender
+
+ puts 'How old are you?'
+ age = gets.chomp.to_i
+ if age >= 21
+ puts 'Have a drink!'
+ else
+ puts "You still have #{21 -age} years left"
+ end
+
+Write a program that keeps asking the user for a number until they type done.
+ Puts the addition of the numbers.
+
+ response = ''
+ newnum = 0
+ until response == 'done'
+ puts 'Give me some numbers, type done when you want to exit.'
+ response = gets.chomp
+ if response != 'done'
+ addition = response.to_i
+ puts newnum += addition
+ end
+ end

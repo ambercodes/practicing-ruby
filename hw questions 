@@ -1,5 +1,5 @@
 #question 4
-#Write a program that asks for the time of day and then greets a user appropiately.
+#Write a program that asks for the time of day and then greets a user appropriately.
 #Try using case statements.
 
  puts 'What time is it?'
